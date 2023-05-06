@@ -1,0 +1,42 @@
+.contact {
+    padding: 150px;
+    color: white;
+    text-align: center;
+}
+
+.content .content-contact {
+    display: inline-block;
+    position: relative;
+    letter-spacing: 0.8px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.content-contact img {
+    width: 20%;
+    height: 20%;
+}
+
+.content-contact a {
+    color: white;
+}
+
+.content-contact p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .contact {
+        padding: 350px 0px;
+        color: white;
+        text-align: center;
+    }
+    .content-contact img {
+        width: 10%;
+        height: 10%;
+    }
+    .content-contact p {
+        font-size: 15px;
+    }
+}

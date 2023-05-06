@@ -1,0 +1,7 @@
+body {
+  margin-top: 0;
+  background-image: url('./assets/images/fond.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

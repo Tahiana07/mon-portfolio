@@ -1,0 +1,58 @@
+.pro {
+    padding: 200px 50px;
+}
+
+.customers {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.customers td img {
+    width: 300px;
+    height: 200px;
+}
+
+.customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.customers tr:hover {
+    background-color: #ddd;
+}
+
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(0, 110, 255);
+    color: white;
+}
+
+.container-table {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .pro {
+        padding: 350px 0px;
+    }
+    .customers td img {
+        width: 150px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    .pro {
+        padding: 250px 50px;
+    }
+    .customers td img {
+        width: 100%;
+        height: 100%;
+    }
+}
